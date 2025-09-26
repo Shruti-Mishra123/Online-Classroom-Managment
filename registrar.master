@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="registrar.master.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>    <div>    <div style="width: 900px">
+    
+    
+    
+        <div style="font-family: 'times New Roman', Times, serif; font-size: 40px; font-weight: bold; vertical-align: middle; text-align: center; background-color: #FFFFFF; width: 898px; border: 1px solid #FF3300; height: 180px; color: #FF9900; font-style: italic;">
+            <asp:Image ID="Image3" runat="server" Height="180px" 
+                ImageUrl="~/images/clifton private hotel banner.jpg" Width="898px" />
+        </div>
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 18px; vertical-align: middle; text-align: left; background-color: #FFFFFF; border-right-style: solid; border-left-style: solid; border-width: 1px; border-color: #663300; width: 898px; height: 30px; color: #993300; font-style: italic;">
+                      <marquee><asp:Label ID="Label1" runat="server" 
+                Text="Welcome to Online Student Portal."></asp:Label></marquee>
+
+        </div>
+        <table width="900px" 
+                    style="border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-width: 1px; border-color: #CC3300">
+            <tr>
+                <td style="text-align: center; background-color: #FFFFFF; width: 180px; height: 45px;">
+                    <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="False" 
+                        Font-Names="Bookman Old Style" Font-Underline="False" ForeColor="#EEA03A" 
+                        NavigateUrl="~/Registrar/facultyregistraion.aspx">Add Faculty</asp:HyperLink>
+                </td>
+                <td style="text-align: center; background-color: #FFFFFF; width: 180px">
+                    &nbsp;</td>
+                <td style="text-align: center; background-color: #FFFFFF; width: 180px">
+                    <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="False" 
+                        Font-Names="Bookman Old Style" Font-Underline="False" ForeColor="#EEA03A" 
+                        NavigateUrl="~/Registrar/studentregistraion.aspx">Add  Student</asp:HyperLink>
+                </td>
+                <td style="text-align: center; background-color: #FFFFFF; width: 180px">
+                    &nbsp;</td>
+                <td style="text-align: center; background-color: #FFFFFF; width: 180px">
+                    <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="False" 
+                        Font-Names="Bookman Old Style" Font-Underline="False" ForeColor="#EEA03A" 
+                        NavigateUrl="~/home.html">Logout</asp:HyperLink>
+                </td>
+            </tr>
+                   </table>
+        <table style="border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-width: 1px; border-color: #CC3300" 
+            width="100%">
+            <tr>
+                <td style="font-family: verdana; font-size: 12px; text-align: center; vertical-align: top; background-color: #FFFFFF; width: 180px;" 
+                    height="350">
+                    <marquee direction="up" onmouseout="this.start()" onmouseover="this.stop()" 
+                        scrolldelay="100" style="height: 344px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Label2" runat="server"></asp:Label></marquee></td>
+                <td style="font-family: verdana; font-size: 12px; background-color: #F9F9F7; vertical-align: top; text-align: center" 
+                    height="350">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <div style="width: 900px; font-family: 'times New Roman', Times, serif; font-size: 14px; background-color: #FFCCCC; text-align: center; color: #000000; height: 30px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright@2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+                    </div>
+    
+    
+    
+    </div>
+    </div>    
+    </center>
+</form>
+</body>
+</html>
